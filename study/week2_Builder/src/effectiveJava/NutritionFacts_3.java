@@ -9,6 +9,7 @@ package effectiveJava;
  *   2. 장점
  *     - 빌더 패턴은 생성자의 들어갈 매개 변수가 많든 적든 차례차례 받아들이고,
  *       모든 매개변수를 받은 뒤에 이 변수들을 통합해서 한번에 사용
+ *       - 즉, setter 메소드가 없으므로 변경 불가능 객체를 만들 수 있음
  *     - 객체 생성에 있어 필수적 인자와 선택적 인자 구분 가능
  *     - 선택적 인자의 경우, 보다 가독성 좋은 코드 작성 가능
  */
@@ -31,8 +32,8 @@ public class NutritionFacts_3 {
 
 	public static class Builder {
 		// 필수 인자
-		private int servingSize;
-		private int servings;
+		private final int servingSize;
+		private final int servings;
 
 		// 선택적 인자, 기본값으로 초기화
 		private int calories = 0;
@@ -47,7 +48,7 @@ public class NutritionFacts_3 {
 
 		public Builder calories(int val) {
 			this.calories = val;
-			return this;
+			return this; // 이렇게 하면 . 으로 체인을 이어갈 수 있음
 		}
 
 		public Builder fat(int val) {

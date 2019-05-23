@@ -1,14 +1,8 @@
 - 출처
-  - https://johngrib.github.io/wiki/builder-pattern/
-  - https://plposer.tistory.com/62
-    - 이어서
-  - https://ifcontinue.tistory.com/6
-  - https://jdm.kr/blog/217
-    - 두 가지 방법(중복 클래스)
-  - https://asfirstalways.tistory.com/350
-    - 이어서
-  - https://www.journaldev.com/1425/builder-design-pattern-in-java
+  - 코드
+  	- https://plposer.tistory.com/62
   - 이론
+  	- https://johngrib.github.io/wiki/builder-pattern/
+  - 추가
     - https://okky.kr/article/396206
     - https://hamait.tistory.com/847
--
