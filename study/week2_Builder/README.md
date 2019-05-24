@@ -20,3 +20,7 @@
 	- Log4j에서 왜 빌드 패턴을 사용하지 않았나
 		- 메소드에 static final 필드가 들어가 있음
 		- AOP
+
+> 구조(GoF)
+
+![GoF Diagram](https://github.com/nara1030/DesignPattern/blob/master/images/Diagram.png)
