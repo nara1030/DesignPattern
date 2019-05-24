@@ -1,4 +1,4 @@
-- 출처
+- 참고
   - 코드
   	- https://plposer.tistory.com/62
   - 이론
