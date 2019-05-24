@@ -19,3 +19,4 @@
 	- [내부 클래스 사용할 필요 없음](https://ko.wikipedia.org/wiki/%EB%B9%8C%EB%8D%94_%ED%8C%A8%ED%84%B4)
 	- Log4j에서 왜 빌드 패턴을 사용하지 않았나
 		- 메소드에 static final 필드가 들어가 있음
+		- AOP
