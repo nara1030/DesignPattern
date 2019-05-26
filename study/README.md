@@ -8,7 +8,7 @@ GoF의 다지인 패턴을 바탕으로 개별 학습 및 발표하는 스터디
 </br></br>
 
 ### 기타
-* [슬랙](designpattenstudy.slack.com)
+* [슬랙](https://designpattenstudy.slack.com)
 </br></br>
 
 ### 일정(*생성 패턴부터 우선적으로*)
