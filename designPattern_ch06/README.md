@@ -3,6 +3,7 @@
 + 학습 목표
 	+ 싱글턴 패턴 이해하기
 	+ 다중 스레드와 싱글턴 패턴의 관계 이해하기
+- - - - -
 
 ### 목차
 1. [적용 상황](#적용-상황)
@@ -17,5 +18,5 @@
 
 ### 단계별 예시
   
-+ 참고
-	+ [멀티 스레드 환경에서의 올바른 싱글톤](https://medium.com/@joongwon/multi-thread-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%98%AC%EB%B0%94%EB%A5%B8-singleton-578d9511fd42)
+### 참고
+[멀티 스레드 환경에서의 올바른 싱글톤](https://medium.com/@joongwon/multi-thread-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%98%AC%EB%B0%94%EB%A5%B8-singleton-578d9511fd42)
