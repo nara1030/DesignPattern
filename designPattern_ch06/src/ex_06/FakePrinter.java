@@ -1,6 +1,6 @@
 package ex_06;
 
-// 테스트용 가짜 프린터
+// 테스트용 가짜 프린
 public class FakePrinter implements Printer {
 	private String str;
 
