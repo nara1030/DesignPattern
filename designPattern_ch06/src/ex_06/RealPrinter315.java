@@ -1,7 +1,7 @@
 package ex_06;
 
 // 실제 프린터
-public class RealPrinter315 implements Printer {
+public class RealPrinter315 implements Printer { // 싱글턴 패턴을 사용
 	private static Printer printer = null;
 
 	public RealPrinter315() {
