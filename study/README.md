@@ -14,5 +14,5 @@ GoF의 다지인 패턴을 바탕으로 개별 학습 및 발표하는 스터디
 ### 일정(*생성 패턴부터 우선적으로*)
 * 1주차: [싱글턴](https://github.com/nara1030/DesignPattern/blob/master/study/week1_Singleton/week_1.md)
 * 2주차(2019.05.23): [빌더](https://github.com/nara1030/DesignPattern/blob/master/study/week2_Builder/week_2.md)
-* 3주차(2019.06.05): 팩토리
-* 4주차:
+* 4주차(2019.06.05): [팩토리](https://github.com/nara1030/DesignPattern/blob/master/study/week4_Factory/week_4.md)
+* 5주차(2019.06.12): 템플릿 메소드
