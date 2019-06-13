@@ -22,7 +22,24 @@
 	* 책임: 하나의 인스턴스만을 생성하는 책임
 	* 수행: getInstance 메서드를 통해 모든 클라이언트에게 동일한 인스턴스를 반환하는 작업을 수행
 
-### 단계별 예시
+### 가장 간단한 예시
+```java
+public class Printer {
+	private static Printer printer = null;
+	private Printer() {}
+	
+	public static Printer getPrinter() {
+		if (printer == null) {
+			printer = new Printer(); // Printer 인스턴스 생성
+		}
+		return printer;
+	}
+	
+	public void print(String str) {
+		System.out.println(str);
+	}
+}
+```
   
 ### 참고
 [멀티 스레드 환경에서의 올바른 싱글톤](https://medium.com/@joongwon/multi-thread-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%98%AC%EB%B0%94%EB%A5%B8-singleton-578d9511fd42)
