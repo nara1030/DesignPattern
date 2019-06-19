@@ -30,7 +30,7 @@ public class NutritionFacts_3 {
 		this.carbohydrate = builder.carbohydrate;
 	}
 
-	public class Builder {
+	public static class Builder {
 		// 필수 인자
 		private final int servingSize;
 		private final int servings;
