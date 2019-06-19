@@ -21,7 +21,7 @@ public class NutritionFacts_3 {
 	private final int sodium;
 	private final int carbohydrate;
 
-	public NutritionFacts_3(Builder builder) {
+	private NutritionFacts_3(Builder builder) {
 		this.servingSize = builder.servingSize;
 		this.servings = builder.servings;
 		this.calories = builder.calories;
@@ -30,7 +30,7 @@ public class NutritionFacts_3 {
 		this.carbohydrate = builder.carbohydrate;
 	}
 
-	public static class Builder {
+	public class Builder {
 		// 필수 인자
 		private final int servingSize;
 		private final int servings;
