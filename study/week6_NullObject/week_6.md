@@ -28,7 +28,7 @@ Null Object 패턴
 			*
 	4. 구조
 		* 목적 中 코드 간편화를 설명  
-		  ![structure](/img/NullObject.png)
+		  ![structure](../img/NullObject.png)
 
 * 레퍼런스
 	1. [Java의 Null Object Pattern](https://www.dineshonjava.com/null-object-pattern/)
