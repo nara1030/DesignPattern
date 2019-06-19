@@ -27,8 +27,8 @@ Null Object 패턴
 		* 데이터베이스와 같은 특정 기능의 가용성을 테스트
 			*
 	4. 구조
-		* 목적 中 코드 간편화를 설명
-		  ![structure](/week6_NullObject/img/NullObject.png)
+		* 목적 中 코드 간편화를 설명  
+		  ![structure](/img/NullObject.png)
 
 * 레퍼런스
 	1. [Java의 Null Object Pattern](https://www.dineshonjava.com/null-object-pattern/)
