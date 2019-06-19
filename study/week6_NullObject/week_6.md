@@ -35,7 +35,9 @@ Null Object 패턴
 				e.pay();
 			  }
 			  ```
-			* 물론 DB.get
+			* 질문
+				* 물론 DB.getEmployee()가 어떤 직원을 찾는 데 실패했는지 알고 싶은 경우도 많을 것임  
+				  이는 NullEmployee의 유일한 인스턴스를 저장하는 Employee의 정적 final 변수를 만드는 것으로 해결 가능
 	4. 구조
 		* 목적 中 코드 간편화를 설명  
 		  ![structure](./img/NullObject.png)
