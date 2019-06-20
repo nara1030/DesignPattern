@@ -3,8 +3,8 @@ Null Object 패턴
 6주차
 - - - - - -
 * 일시: 2019.06.19(수)
-* 장소: 
-* 참여인원: 
+* 장소: 강남 카페나인
+* 참여인원: 4인
 * 내용: 아래 참고
 </br>
 
@@ -48,6 +48,7 @@ Null Object 패턴
 			* 예1
 				* NoCustomer: 고객이 없는 경우
 				* UnKnownCustomer: 누군가 있는 건 알지만, 그게 누구인지 모르는 경우
+		* [토의](https://github.com/nara1030/DesignPattern/blob/master/study/week6_NullObject/etc.md)
 			
 
 * 레퍼런스
