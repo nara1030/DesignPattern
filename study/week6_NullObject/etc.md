@@ -35,11 +35,38 @@ Null Object 주제 관련 기타 토의 내용
 			* 프로퍼티 파일: 컴파일 없이 수정 가능하다는 장점
 			* Enum
 		2. 비교값으로 문자열 지양
-3. 
+3. Collections.EMPTY_LIST
+	* 코드  
+	  ```java
+	  public static final List EMPTY_LIST = new EmptyList<>();
+	  
+	  public static final <T> List<T> emptyList() {
+		return (List<T>) EMPTY_LIST;
+	  }
+	  ```
+		* 출처
+			* [Java - Collections.EMPTY_LIST](https://dololak.tistory.com/48)
+			* 자바독  
+			  ![javadoc](./img/Collections_EMPTY_LIST.png)
+	* 개념
+		* EmptyList 클래스
+			* Collections 클래스의 내부 클래스
+			* private 접근 제한자로 정의되어 있는 클래스이므로 직접 접근 불가
+				* EMPTY_LIST 또는 emptyList()를 통해 접근 가능
+		* 상수 EMPTY_LIST
+			* 상수 → 싱글톤 객체를 참조
+			* public이므로 외부에서 EmptyList 클래스 접근 가능
+	* 필요성
+		* 비어 있는 List를 리턴해야 하는 경우
+			* 예1. DB에서 User 객체가 담긴 리스트를 조회해주는 메서드
 4. Spring JPA
 	* ORM
 	* Hibernate
+	* JdbcTemplate
 	* MyBatis
+	* findById
 5. 기타
 	* 까보는 습관
 	* 현업에서 자바11을 사용
+	* Restful
+	* Micro Service
