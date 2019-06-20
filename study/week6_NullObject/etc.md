@@ -10,12 +10,12 @@ Null Object 주제 관련 기타 토의 내용
 			1. 런타임에 NPE(NullPointerException)라는 예외 발생 위험
 			2. NPE 방어 위한 체크 로직 때문에 코드 가독성 및 유지 보수성 떨어짐
 		* 해결
-			1. Null 처리(방어) 이전에 요구사항 파악 및 [클래스 설계가 중요한 이유]()
+			1. Null 처리(방어) 이전에 요구사항 파악 및 클래스 설계가 중요한 이유
 			2. 자바8 이후 기술적 처리
 	* [2부 - 자바8 이후의 Null 처리](http://www.daleseo.com/java8-optional-after/)
 		* java.util.Optional<T> 도입
 			* 스칼라와 히스켈 등 함수형 언어에서 영감을 받아 "존재할지 안할 지 모르는 값"을 표현할 수 있는 별개의 타입 도입
-			* 존재할 수도 있지만 안 할 수도 있는, 즉 Null이 될 수도 있는 객체를 감싸고 있는 [일종의 래퍼 클래스]()
+			* 존재할 수도 있지만 안 할 수도 있는, 즉 Null이 될 수도 있는 객체를 감싸고 있는 일종의 래퍼 클래스
 		* 사용법
 			* 선언
 			* 생성: 3가지 정적 팩토리 메소드
@@ -29,7 +29,7 @@ Null Object 주제 관련 기타 토의 내용
 		1. 단순 값 할당 혹은 자료형 파싱 → 분기문 O
 		2. 객체의 메소드 호출 → 분기문 X
 			* 분기문이 존재하는 클래스에 의존성이 생겨버림
-			* 따라서 인터페이스를 고려하거나 [프로퍼티 파일을 통해 bean에 태우는 방식]() 고려
+			* 따라서 인터페이스를 고려하거나 프로퍼티 파일을 통해 bean에 태우는 방식 고려
 	* 단순 값 할당 시 추가 고려사항
 		1. 경우의 수가 많아질 경우
 			* 프로퍼티 파일: 컴파일 없이 수정 가능하다는 장점
@@ -46,8 +46,7 @@ Null Object 주제 관련 기타 토의 내용
 	  ```
 		* 출처
 			* [Java - Collections.EMPTY_LIST](https://dololak.tistory.com/48)
-			* 자바독  
-			  ![javadoc](./img/Collections_EMPTY_LIST.png)
+			* [자바독](https://github.com/nara1030/DesignPattern/blob/master/study/week6_NullObject/img/Collections_EMPTY_LIST.png)  
 	* 개념
 		* EmptyList 클래스
 			* Collections 클래스의 내부 클래스
