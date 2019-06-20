@@ -79,7 +79,7 @@ Null Object 주제 관련 기타 토의 내용
 		1. Mybatis vs. Hibernate(JPA)
 			* [구글 트랜드 비교](https://trends.google.com/trends/explore?q=mybatis,hibernate)
 			* JPA 탄생 배경
-				* Mybatis의 단점
+				* Mybatis의 단점(JDBC API를 사용)
 					1. 테이블마다 비슷한 CRUD SQL 반복 사용
 						* 즉, DAO 개발 작업이 반복
 					2. 테이블에 칼럼 추가 시, 관련된 모든 DAO의 SQL문 수정 필요
