@@ -59,11 +59,44 @@ Null Object 주제 관련 기타 토의 내용
 		* 비어 있는 List를 리턴해야 하는 경우
 			* 예1. DB에서 User 객체가 담긴 리스트를 조회해주는 메서드
 4. Spring JPA
-	* ORM
-	* Hibernate
-	* JdbcTemplate
-	* MyBatis
-	* findById
+	* 개념
+		1. JPA(Java Persistent API)
+			* 자바 ORM 기술에 대한 API 표준 명세
+			* 즉, JPA는 ORM을 사용하기 위한 인터페이스를 모아둔 것
+		2. ORM(Object Relational Mapping)
+			* 객체와 DB 테이블이 매핑을 이루는 것
+			* 즉, 객체가 테이블이 되도록 매핑시켜주는 것
+			* 효용
+				* 쿼리가 아닌 코드(메서드)로 직관적인 데이터 조작 가능
+				* 예. User 테이블의 데이터 출력
+					* 쿼리: SELECT * FROM user;
+					* ORM: user.findAll();
+						* user 테이블과 매핑된 객체가 user
+		3. Hibernate
+			* JPA를 사용하기 위해서는 JPA의 구현체인 ORM 프레임워크 사용 필요
+			* 그 중 하나가 Hiberante고, 외에 EclipseLink, DataNucleus가 있음
+	* 기타
+		1. Mybatis vs. Hibernate(JPA)
+			* [구글 트랜드 비교](https://trends.google.com/trends/explore?q=mybatis,hibernate)
+			* JPA 탄생 배경
+				* Mybatis의 단점
+					1. 테이블마다 비슷한 CRUD SQL 반복 사용
+						* 즉, DAO 개발 작업이 반복
+					2. 테이블에 칼럼 추가 시, 관련된 모든 DAO의 SQL문 수정 필요
+						* 즉, DAO와 테이블 사이 강한 의존성 존재
+				* Mybatis의 특징
+					1. 객체 모델링보다 데이터 중심 모델링(테이블 설계)을 우선시
+					2. 객체 지향의 장점을 사용하지 않고 객체를 단순히 데이터 전달 목적(VO, DTO)으로 사용
+			* 참고
+				* [Spring Data JPA를 활용해 DAO를 바꿔보자](http://www.chidoo.me/index.php/2016/05/08/spring-data-jpa-for-short-memories/)
+				* JDBC vs. Mybatis
+		2. JdbcTemplate
+			* [Spring JDBC - JdbcTemplate의 기본 사용법](https://gmlwjd9405.github.io/2018/12/19/jdbctemplate-usage.html)
+			* [Spring 레퍼런스 - 13장_JDBC를 사용한 데이터 접근](https://blog.outsider.ne.kr/882)
+		3. findById
+			* [Interface - CrudRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
+	* 출처
+		* [Spring JPA - ORM과 JPA 그리고 Hibernate](https://victorydntmd.tistory.com/195)
 5. 기타
 	* 까보는 습관
 	* 현업에서 자바11을 사용
