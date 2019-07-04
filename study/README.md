@@ -18,6 +18,6 @@ GoF의 다지인 패턴을 바탕으로 개별 학습 및 발표하는 스터디
 * 5주차: 템플릿 메소드
 * 6주차(2019.06.19): [널 오브젝트](https://github.com/nara1030/DesignPattern/blob/master/study/week6_NullObject/week_6.md)
 * 7주차(2019.06.26): [전략](https://github.com/nara1030/DesignPattern/blob/master/study/week7_Strategy/week_7.md)
-* 8주차: [옵저버]()
+* 8주차: [옵저버](https://github.com/nara1030/DesignPattern/blob/master/study/week8_Observer/week_8.md)
 * 9주차: [프록시]()
 * 10주차: [데코레이터]()
