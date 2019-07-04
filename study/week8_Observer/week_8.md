@@ -43,7 +43,7 @@ Observer 패턴
 			* Push: Publisher에서 정보(상태)가 변경될 때마다 Observer에게 보내는 방식
 			* Pull: Observer에서 정보가 필요할 때마다 Publisher에게 요청하는 방식
 2. 적용
-	* 예제 소스는 src 폴더 참고
+	* 예제 소스는 스터디 발표자분의 소스인데 공부 용도로 발췌
 	* 각종 이벤트 받을 때
 		* 자바
 			* 스윙
