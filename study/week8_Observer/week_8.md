@@ -48,15 +48,17 @@ Observer 패턴
 				* 스윙
 			* 안드로이드
 				* View 혹은 Button
-	3. 토의
-		* 이더리움(?)은 옵저버 패턴과 연관이 있음
-		* 자바스크립트는 비동기 언어
-			* 반대로 자바는 동기 언어
-			* 콜백함수의 등장
-		* 기타
-			* 만약 이 내용을 절차 지향 언어로 짠다면 어떻게 짜야 되는 거지?
-			* 
-	4. 참고
-		* [디자인 패턴 - 옵저버 패턴](https://flowarc.tistory.com/entry/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4Observer-Pattern)
-		* [옵저버 패턴이란](https://gmlwjd9405.github.io/2018/07/08/observer-pattern.html)
-		* [위키백과 - 옵서버 패턴](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)
+
+* 토의
+	* 이더리움(?)은 옵저버 패턴과 연관이 있음
+	* 자바스크립트는 비동기 언어
+		* 반대로 자바는 동기 언어
+		* 콜백함수의 등장
+	* 기타
+		* 만약 이 내용을 절차 지향 언어로 짠다면 어떻게 짜야 되는 거지?
+		* 
+
+* 참고
+	* [디자인 패턴 - 옵저버 패턴](https://flowarc.tistory.com/entry/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4Observer-Pattern)
+	* [옵저버 패턴이란](https://gmlwjd9405.github.io/2018/07/08/observer-pattern.html)
+	* [위키백과 - 옵서버 패턴](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)
