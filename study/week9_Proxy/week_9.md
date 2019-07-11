@@ -45,6 +45,10 @@ Proxy 패턴
 	* 싱글톤의 단점
 		* 대기
 		* 흔히 DB 연결 응용 → DBCP ?
+		* 참고
+			* [싱글톤 패턴은 안티 패턴인가?](https://mygumi.tistory.com/265)
+			* [DB 연결을 싱글톤으로 구현하는 방법](https://okky.kr/article/156315)
+			* [DB 커넥션하는 싱글톤 클래스 생성](http://cafe.daum.net/_c21_/bbs_search_read?grpid=19VVx&fldid=Ki0S&datanum=63)
 2. 응용
 	* MSA
 	* Spring AOP, 프록시, 인터셉터, 권한/인가
