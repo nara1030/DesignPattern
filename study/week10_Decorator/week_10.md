@@ -23,6 +23,14 @@ Decorator 패턴
 	* 단 프록시 패턴은 흐름 제어만 할 뿐 반환값을 수정하지는 않지만, 데코레이터 패턴은 반환값을 조작 후 반환
 	* UML  
 	  ![img](./img/proxy_vs_decorator.png)
+	* 적용
+		* A 객체의 doAction() 메소드의 기능은 "hello" 출력
+		* Decorator pattern
+			* B 객체의 doAction() 메소드 호출 시 A 객체의 doAction() 호출 및 부가 기능 추가 의도
+			* 로깅, 트랜잭션 등
+		* Proxy pattern
+			* 부가 기능을 추가 구현해주는 것이 아니라 주요 기능을 다양한 방식으로 컨트롤해주는 역할
+			* Remote 컴퓨터에서 출력, Lazy initialization, 캐시된 것 사용 등
 	* 참고 
 		* [집합관계: 합성 vs 집약](https://defacto-standard.tistory.com/104)
 
@@ -35,4 +43,6 @@ Decorator 패턴
 2. 자바 API
 	* Stream  
 	<img src="./img/stream.png" width="480" height="300"> 
-3.
+3. 스프링 Dynamic Proxy
+	* [Dynamic Proxy는 Proxy 패턴인가 Decorator 패턴인가](http://toby.epril.com/?p=841)
+	* [하둡 RPC](https://hamait.tistory.com/175)
