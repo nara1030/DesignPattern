@@ -12,8 +12,8 @@ Decorator 패턴
 1. [개념](#개념)
 2. [적용](#적용)
 
-### 개념(https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%BB%A4%EB%A0%88%EC%9D%B4%ED%84%B0_%ED%8C%A8%ED%84%B4)
-* [주어진 상황 및 용도에 따라 어떤 객체에 책임을 덧붙이는 패턴]
+### 개념
+* [주어진 상황 및 용도에 따라 어떤 객체에 책임을 덧붙이는 패턴](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%BB%A4%EB%A0%88%EC%9D%B4%ED%84%B0_%ED%8C%A8%ED%84%B4)
 	* 장점
 		* [기능 확장이 필요할 때 서브클래싱 대신 쓸 수 있는 유연한 대안](https://gdtbgl93.tistory.com/9)
 	* 단점
