@@ -30,7 +30,7 @@ Decorator 패턴
 1. 카페 커피 주문 예시
 	* 소스 참고
 	* 설명  
-	<img src="./img/head_first.png" width="480" height="300"> 
+	<img src="./img/head_first.png" width="480" height="300"></br>
 		* 호출과 리턴이 역순으로 일어남을 확인 가능
 2. 자바 API
 	* Stream  
