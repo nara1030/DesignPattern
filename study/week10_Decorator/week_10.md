@@ -51,7 +51,8 @@ Decorator 패턴
 		* 호출과 리턴이 역순으로 일어남을 확인 가능
 2. 자바 API
 	* Stream  
-	<img src="./img/stream.png" width="480" height="300"> 
+	<img src="./img/stream.png" width="480" height="300"> </br>
+		* 확실히 이해가 안 가서 좀 더 생각 필요..!
 3. 스프링 Dynamic Proxy
 	* [Dynamic Proxy는 Proxy 패턴인가 Decorator 패턴인가](http://toby.epril.com/?p=841)
 	* [하둡 RPC](https://hamait.tistory.com/175)
